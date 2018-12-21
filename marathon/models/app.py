@@ -97,7 +97,8 @@ class MarathonApp(MarathonResource):
                  tasks_healthy=None, task_kill_grace_period_seconds=None, tasks_unhealthy=None, upgrade_strategy=None,
                  unreachable_strategy=None, uris=None, user=None, version=None, version_info=None,
                  ip_address=None, fetch=None, task_stats=None, readiness_checks=None,
-                 readiness_check_results=None, secrets=None, port_definitions=None, residency=None, gpus=None, networks=None):
+                 readiness_check_results=None, secrets=None, port_definitions=None, residency=None, gpus=None, networks=None,
+                 **kwargs):
 
         # self.args = args or []
         self.accepted_resource_roles = accepted_resource_roles
